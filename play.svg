@@ -1,10 +1,66 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
-<g>
-	<g>
-		<path fill="#000000" d="M50,0C22.427,0-0.002,22.43-0.002,50c0,27.571,22.43,50,50.003,50c27.574,0,50.003-22.429,50.003-50    C100.004,22.43,77.574,0,50,0z M50,94.231C25.61,94.231,5.767,74.39,5.767,50C5.767,25.611,25.61,5.77,50,5.77    S94.234,25.611,94.234,50C94.234,74.39,74.391,94.231,50,94.231z"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   width="100px"
+   height="100px"
+   viewBox="0 0 100 100"
+   enable-background="new 0 0 100 100"
+   xml:space="preserve"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="play.svg"><metadata
+   id="metadata17"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs15" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1366"
+   inkscape:window-height="706"
+   id="namedview13"
+   showgrid="false"
+   inkscape:zoom="2.36"
+   inkscape:cx="50"
+   inkscape:cy="50"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1" />
+<g
+   id="g3"
+   style="fill:#0000ff">
+	<g
+   id="g5"
+   style="fill:#0000ff">
+		<path
+   fill="#000000"
+   d="M50,0C22.427,0-0.002,22.43-0.002,50c0,27.571,22.43,50,50.003,50c27.574,0,50.003-22.429,50.003-50    C100.004,22.43,77.574,0,50,0z M50,94.231C25.61,94.231,5.767,74.39,5.767,50C5.767,25.611,25.61,5.77,50,5.77    S94.234,25.611,94.234,50C94.234,74.39,74.391,94.231,50,94.231z"
+   id="path7"
+   style="fill:#0000ff" />
 	</g>
-	<g>
-		<path fill="#000000" d="M44.783,24.503c-0.828-0.827-2.068-1.075-3.144-0.625c-1.076,0.446-1.78,1.499-1.78,2.665v46.915    c0,1.166,0.704,2.218,1.78,2.666c0.357,0.149,0.732,0.22,1.104,0.22c0.75,0,1.487-0.293,2.04-0.845l23.455-23.459    c1.127-1.126,1.127-2.952,0-4.078L44.783,24.503z M45.628,66.491V33.507L62.119,50L45.628,66.491z"/>
+	<g
+   id="g9"
+   style="fill:#0000ff">
+		<path
+   fill="#000000"
+   d="M44.783,24.503c-0.828-0.827-2.068-1.075-3.144-0.625c-1.076,0.446-1.78,1.499-1.78,2.665v46.915    c0,1.166,0.704,2.218,1.78,2.666c0.357,0.149,0.732,0.22,1.104,0.22c0.75,0,1.487-0.293,2.04-0.845l23.455-23.459    c1.127-1.126,1.127-2.952,0-4.078L44.783,24.503z M45.628,66.491V33.507L62.119,50L45.628,66.491z"
+   id="path11"
+   style="fill:#0000ff" />
 	</g>
 </g>
 </svg>
