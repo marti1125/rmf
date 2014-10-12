@@ -11,12 +11,18 @@
         <h3>NAJLEPSZA MUZYKA</h3>
     </div>
     <hr/><br/>
-    <audio id="yourAudio" preload='none'>
-      <source src="http://217.74.72.11:8000/rmf_fm" type="audio/ogg">
-    </audio>
-    <a href="#" id="audioControl"><img id="img" src="play.svg"/></a>
-    <input type="range" min="0.0" max="1.0" value="0.5" id="fader" step="0.1" onchange="outputUpdate(value)">
-    <output for="fader" id="volume">50%</output>
+    <div id="player">
+        <div id="audio_content">
+            <audio id="yourAudio" preload='none'>
+              <source src="http://217.74.72.11:8000/rmf_fm" type="audio/ogg">
+            </audio>
+            <a href="#" id="audioControl"><img id="img" src="play.svg"/></a>
+        </div>
+        <div id="volume_content">            
+            <input type="range" min="0.0" max="1.0" value="0.5" id="fader" step="0.1" onchange="outputUpdate(value)">
+            <output for="fader" id="volume">50%</output>
+        </div>
+    </div>
     <script type="text/javascript" src="app.js"></script>
 </body>
 </html>
