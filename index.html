@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+	<title>RMF ON</title>
+</head>
+<style type="text/css">
+body {
+    background-color: yellow;
+    color: blue;
+    text-align: center;
+}
+</style>
+<body>
+<h1>RMF ON</h1>
+<hr/>
+<audio id="yourAudio" preload='none'>
+  <source src="http://217.74.72.11:8000/rmf_fm" type="audio/ogg">
+</audio>
+<a href="#" id="audioControl"><img id="img" src="play.svg"/></a>
+
+<script type="text/javascript">
+
+String.prototype.filename=function(extension){
+    var s= this.replace(/\\/g, '/');
+    s= s.substring(s.lastIndexOf('/')+ 1);
+    return extension? s.replace(/[?#].+$/, ''): s.split('.')[0];
+}
+
+var yourAudio = document.getElementById('yourAudio'),
+    ctrl = document.getElementById('audioControl');
+
+ctrl.onclick = function () {
+
+    var imgPlayStop = document.getElementById('img').src.filename();
+    
+    // Update the Button
+    if(imgPlayStop == 'stop'){        
+        ctrl.innerHTML = '<img id="img" src="play.svg"/>';
+        yourAudio['pause']();        
+    } else {        
+        yourAudio['play']();
+        ctrl.innerHTML = '<img id="img" src="stop.svg"/>';        
+    }
+
+    return false;
+};
+
+</script>
+</body>
+</html>
