@@ -23,12 +23,12 @@ ctrl.onclick = function () {
     
     // Update the Button
     if(imgPlayStop == 'stop'){        
-        ctrl.innerHTML = '<img id="img" src="play.svg"/>';
+        ctrl.innerHTML = '<img id="img" src="img/play.svg"/>';
         yourAudio['pause']();          
         yourAudio.volume = volume;
     } else {        
         yourAudio['play']();
-        ctrl.innerHTML = '<img id="img" src="stop.svg"/>';
+        ctrl.innerHTML = '<img id="img" src="img/stop.svg"/>';
         yourAudio.volume = volume; 
     }
 

@@ -4,20 +4,28 @@
 	"version": "1.0",
 	"launch_path": "/index.html",
 	"icons": {
-		"512": "icon-512.png",		
-		"128": "icon-128.png",		
-		"60" : "icon-60.png"		
+		"512": "icon/icon-512.png",		
+		"128": "icon/icon-128.png",		
+		"60" : "icon/icon-60.png"		
 	},
 	"orientation": ["portrait"],
 	"developer": {
 		"name": "Willy Aguirre",
-		"url": "http://willyaguirre.me/"
+		"url": "http://osgux.tumblr.com/"
 	},
 	"locales": {
+		"pl": {
+			"name": "RMF",
+			"description": "RMF Radio Online"
+		},
 		"en-US": {
-		"name": "RMF",
-		"description": "RMF Radio Online"
+			"name": "RMF",
+			"description": "RMF Radio Online"
+		},
+		"es": {
+			"name": "RMF",
+			"description": "RMF Radio Online"
 		}
 	},
-	"default_locale": "en-US"
+	"default_locale": "pl"
 }
