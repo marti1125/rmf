@@ -1,12 +1,12 @@
 {
-	"name": "RMF",
+	"name": "RMF Radio",
 	"description": "RMF Radio Online",
 	"version": "1.0",
 	"launch_path": "/index.html",
 	"icons": {
-		"512": "icon/icon-512.png",		
-		"128": "icon/icon-128.png",		
-		"60" : "icon/icon-60.png"		
+		"512": "/icon/icon-512.png",		
+		"128": "/icon/icon-128.png",		
+		"60" : "/icon/icon-60.png"		
 	},
 	"orientation": ["portrait"],
 	"developer": {
@@ -15,16 +15,16 @@
 	},
 	"locales": {
 		"pl": {
-			"name": "RMF",
-			"description": "RMF Radio Online"
+			"name": "RMF Radio",
+			"description": "RMF Radio Online, nieoficjalna aplikacja z http://www.rmf.fm/"
 		},
 		"en-US": {
-			"name": "RMF",
-			"description": "RMF Radio Online"
+			"name": "RMF Radio",
+			"description": "RMF Radio Online, unofficial app of http://www.rmf.fm/"
 		},
 		"es": {
-			"name": "RMF",
-			"description": "RMF Radio Online"
+			"name": "RMF Radio",
+			"description": "RMF Radio Online, aplicación no oficial de http://www.rmf.fm/"
 		}
 	},
 	"default_locale": "pl"
